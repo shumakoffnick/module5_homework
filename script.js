@@ -1,8 +1,6 @@
 
 
 
-
-
 /*Задача 8
 let myMap = {
 
@@ -17,65 +15,7 @@ console.log(myMap);
 
 
 
-/* Задача 5
-let x = [1, 2, 3, 4, 5];
-console.log(x.length);
-for(let i = 0; i < x.length; i++){
-    console.log(i);
-}
 
-
-
-
-
-
-
-
-
-
-
-/* Задача 2
-let x = prompt('Введите число'); 
-if(x = Number(x)){console.log('Это число')
-}else if(x = String(x)){console.log('Это строка')
-}else if(x = Boolean(x)){console.log('Это логический тип')
-}else{console.log('Тип не определен')};
-
-
-
-
-
-
-
-/* Задача 1 
-let a = prompt('Введите число');
-let c = +a;
-console.log(typeof(c));
-if(c % 2 === 0){console.log('Число четное')
-}else if(c % 1 === 0){console.log('Число не четное')
-}else if(c = Number(c)){console.log('Это минус')}
-
-
-
-
-
-
-
-
-/* пример
-let x = prompt('Сколько тебе лет?');
-
-if(x = Number(x)){console.log('Отлично')
-}else{console.log('нет')}
-
-
-/* 
-let x = '1';
-
-x = Boolean(x); 
-
-console.log(typeof x);
-console.log(x);
 
 
 /* Задание 7
@@ -87,10 +27,6 @@ if(i !== x){console.log(i.lehgth)}
 for( let i = 1; i <= 10; i += 2 ){
 if(i !== x){console.log(i.lehgth)}    
 }
-
-/*
-
-
 
 
 
@@ -104,8 +40,14 @@ console.log(arr2);
 
 /*
 
-/*
 
+
+/* Задача 5
+let x = [1, 2, 3, 4, 5];
+console.log(x.length);
+for(let i = 0; i < x.length; i++){
+    console.log(i);
+}
 
 
 
@@ -131,47 +73,24 @@ console.log(y.reverse().join(''));
 
 /*
 
-/* Задание 5.4
 
-x = '';
-console.log(typeof x);
-a = x == '';
-console.log(a || x)
-if(a || x == ''){console.log('Да, это так')
-}else{'Тип X не определен'};
 
-x = +'';
-console.log(typeof x);
-a = x == +'';
-console.log(a || x)
-if(a || x == +''){console.log('Да, это так')
-}else{'Тип X не определен'};
-
-x = '' == '';
-console.log(typeof x);
-a = x == '';
-console.log(a || x)
-if(a || x == ''){console.log('Да, это так')
-}else{'Тип X не определен'};
+/* Задача 2
+let x = prompt('Введите число'); 
+if(x = Number(x)){console.log('Это число')
+}else if(x = String(x)){console.log('Это строка')
+}else if(x = Boolean(x)){console.log('Это логический тип')
+}else{console.log('Тип не определен')};
                                 */
 
-/* Задание 1 (5.3)
-a = prompt('');
-console.log(typeof +a);
-if(a % 2 === 0){console.log(a)}
-else if (a % 1 === 0){console.log(a)}
-else if (String){console.log('Упс, кажется, вы ошиблись')} */
 
 
+/* Задача 1 
+let a = prompt('Введите число');
+let c = +a;
+console.log(typeof(c));
+if(c % 2 === 0){console.log('Число четное')
+}else if(c % 1 === 0){console.log('Число не четное')
+}else if(c = Number(c)){console.log('Это минус')}
 
 
-
-
-/* a = prompt('Введите число');
-if(a % 2 === 0){alert('Число четное')
-}else {alert('Число не четное')} */
-
-/*b = prompt('');
-
-console.log(typeof +b);
-console.log(b || 0); */
